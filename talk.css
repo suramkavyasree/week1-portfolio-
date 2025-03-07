@@ -1,0 +1,88 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5; /* Light background color for a professional look */
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    right: 20%;
+    top: 0%;
+    
+}
+
+.lets-talk {
+    text-align: center;
+    background-color: #FFFFFF; /* White background for the form container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a professional touch */
+}
+
+.lets-talk h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #007BFF; /* Professional color for headings */
+}
+
+.lets-talk form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.lets-talk input, .lets-talk textarea {
+    width: 40%; /* Adjust width to make the boxes smaller */
+    padding: 5px; /* Reduce padding */
+    border: 1px solid #ccc; /* Lighter border for a professional look */
+    border-radius: 4px;
+}
+
+.lets-talk input[type="text"], .lets-talk input[type="email"] {
+    height: 30px; /* Adjust height for input fields */
+}
+
+.lets-talk textarea {
+    height: 80px; /* Adjust height for textarea */
+}
+
+.lets-talk button {
+    padding: 8px 16px; /* Reduce padding for button */
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lets-talk button:hover {
+    background-color: #0056b3;
+}
+
+.contact-info, .social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #0056b3;
+}
+
+.top{
+    display:flex;
+    height: 40px;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid #ddd;  
+}
